@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "caffeine-script": "*",
+    "webpack": "^2.6.1"
+  },
+  "description": "CaffeineScript Webpack Demo",
+  "license": "ISC",
+  "version": "0.0.0"
+}

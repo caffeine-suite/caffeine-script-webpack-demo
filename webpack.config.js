@@ -1,8 +1,15 @@
 module.exports = {
-  resolve: { extensions: [".caf", ".caffeine", ".js"] },
-  module: {
-    rules: [{ test: /\.caf(feine)?$/, loader: "caffeine-mc/webpack-loader" }]
-  },
+  // Add the .caf extension to the extensions webpack looks for...
+  resolve: { extensions: [".caf", ".js"] },
+
+  // Add the caffeine-script webpack-loader so webpack knows how to load caf files...
+  module: {rules: [{ test: /\.caf?$/, loader: "caffeine-mc/webpack-loader" }]},
+
+  // standard webpack boilerplate
   output: { filename: "[name].js" },
+
+  // configured to compile our ./hello file.
+  // Note, this looks for the FIRST MATCH from the extensions list above:
+  //   Example: hello.caf matches before hello.js
   entry: { hello: "./hello" }
 };

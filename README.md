@@ -1,12 +1,12 @@
 ### Building CaffeineScript with Webpack for use in the Browser
 
 
-`
+```shell
 git clone git@github.com:caffeine-suite/caffeine-script-webpack-demo.git
 cd caffeine-script-webpack-demo
 npm install
 webpack
-`
+```
 
 And you've now generated a client-side-friendly `hello.js` file. Note, CaffeineScript generates ES6 code, so it won't work with older browsers without first running hello.js through a converter like Babel.js.
 

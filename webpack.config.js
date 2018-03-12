@@ -6,6 +6,7 @@ module.exports = {
   module: {rules: [{ test: /\.caf?$/, loader: "caffeine-mc/webpack-loader" }]},
 
   // standard webpack boilerplate
+  mode: 'production',   // change to 'development' to turn off uglify
   output: { filename: "[name].js" },
 
   // configured to compile our ./hello file.

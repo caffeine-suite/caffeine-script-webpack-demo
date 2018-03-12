@@ -2,7 +2,7 @@
 
 
 `
-git clone
+git clone git@github.com:caffeine-suite/caffeine-script-webpack-demo.git
 cd caffeine-script-webpack-demo
 npm install
 webpack

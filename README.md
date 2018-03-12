@@ -8,7 +8,7 @@ cd caffeine-script-webpack-demo
 npm install
 webpack
 
-# hello.js is generated! yay!
+# dist/hello.js is generated! yay!
 ```
 
 And you've now generated a client-side-friendly `hello.js` file. Note, CaffeineScript generates ES6 code, so it won't work with older browsers without first running hello.js through a converter like Babel.js.

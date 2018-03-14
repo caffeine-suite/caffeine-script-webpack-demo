@@ -15,6 +15,22 @@ And you've now generated a client-side-friendly `hello.js` file. Note, CaffeineS
 
 I've also included `hello.uglified.js.gz` to show just how small you can get things ~ 2k.
 
+### Developing in the browser with `webpack-dev-server`
+
+Now that you have webpack working, you might get tired running it everytime you make and want to test a change.
+
+Try running this:
+
+```shell
+webpack-dev-server
+```
+
+* After that loads, click this link: http://localhost:8080/hello
+* You'll see a white page, but...
+* Open up your dev console and you'll see: "Hello world!"
+* Now for the fun part, edit hello.caf. Add a few "!!!" to the end of the string and save it.
+# After a moment the page should automatically reload and you should see your new string appear in the console!
+
 ### Details
 
 They key magic is in your `webpack.config.js` file:

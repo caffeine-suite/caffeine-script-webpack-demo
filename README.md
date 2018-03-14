@@ -39,13 +39,17 @@ Couldn't be easier. Try:
 caf hello.caf
 ```
 
-If you aren't starting your app with "caf", you'll need a .js file to start things. Further, before your 'require' your first caf file, you'll need to add to your .js code: `require('caffeine-script/register')`. But that's about it, then you can use CaffeineScript everywhere.
+If you aren't starting your app with "caf", you'll need a `.js` file to start things. Further, before you 'require' your first caf file, you'll need to add `require('caffeine-script/register')` to your `.js` code. But that's about it, then you can use CaffeineScript everywhere.
 
 Example:
 ```javascript
 // hello.js
+
+// register the caffeine-script compiler with Node.js
 require('caffeine-script/register');
-require('./hello.caf'); # loads and runs hello.caf - yay!
+
+// loads and runs hello.caf - yay!
+require('./hello.caf');
 ```
 
 

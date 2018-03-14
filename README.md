@@ -43,12 +43,12 @@ If you aren't starting your app with "caf", you'll need a `.js` file to start th
 
 Example:
 ```javascript
-// hello.js
-
 // register the caffeine-script compiler with Node.js
 require('caffeine-script/register');
 
 // loads and runs hello.caf - yay!
+// Note: you don't need to specify the '.caf' extension
+//   unless there is another file named 'hello.js'
 require('./hello.caf');
 ```
 

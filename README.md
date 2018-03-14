@@ -31,6 +31,24 @@ Try running this:
 * Now for the fun part, edit hello.caf. Add a few "!!!" to the end of the string and save it.
 * After a moment the page should automatically reload and you should see your new string appear in the console!
 
+### Running your file in Node.js
+
+Couldn't be easier. Try:
+
+```shell
+caf hello.caf
+```
+
+If you aren't starting your app with "caf", you'll need a .js file to start things. Further, before your 'require' your first caf file, you'll need to add to your .js code: `require('caffeine-script/register')`. But that's about it, then you can use CaffeineScript everywhere.
+
+Example:
+```javascript
+// hello.js
+require('caffeine-script/register');
+require('./hello.caf'); # loads and runs hello.caf - yay!
+```
+
+
 ### Details
 
 They key magic is in your `webpack.config.js` file:

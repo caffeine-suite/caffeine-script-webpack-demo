@@ -6,7 +6,7 @@ To see how to build browser-read JavaScript with CaffeineScript and Webpack, fol
 git clone https://github.com/caffeine-suite/caffeine-script-webpack-demo.git
 cd caffeine-script-webpack-demo
 npm install
-webpack
+./node_modules/.bin/webpack
 
 # dist/hello.js is generated! yay!
 ```
@@ -22,7 +22,7 @@ Now that you have webpack working, you might get tired running it everytime you 
 Try running this:
 
 ```shell
-webpack-dev-server
+./node_modules/.bin/webpack-dev-server
 ```
 
 * After that loads, click this link: http://localhost:8080/hello

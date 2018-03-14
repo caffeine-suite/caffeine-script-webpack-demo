@@ -29,7 +29,7 @@ webpack-dev-server
 * You'll see a white page, but...
 * Open up your dev console and you'll see: "Hello world!"
 * Now for the fun part, edit hello.caf. Add a few "!!!" to the end of the string and save it.
-# After a moment the page should automatically reload and you should see your new string appear in the console!
+* After a moment the page should automatically reload and you should see your new string appear in the console!
 
 ### Details
 

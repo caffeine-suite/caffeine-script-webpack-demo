@@ -3,7 +3,7 @@
 To see how to build browser-read JavaScript with CaffeineScript and Webpack, follow these steps:
 
 ```shell
-git clone git@github.com:caffeine-suite/caffeine-script-webpack-demo.git
+git clone https://github.com/caffeine-suite/caffeine-script-webpack-demo.git
 cd caffeine-script-webpack-demo
 npm install
 webpack

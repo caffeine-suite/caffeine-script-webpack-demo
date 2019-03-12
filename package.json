@@ -1,18 +1,11 @@
 {
   "dependencies": {
     "caffeine-script": "*",
-<<<<<<< HEAD
     "webpack":      "*",
     "webpack-cli":  "*"
-
-=======
-    "webpack": "*",
-    "webpack-cli": "*",
-    "webpack-dev-server": "*"
   },
   "scripts": {
     "start": "webpack-dev-server --progress"
->>>>>>> 17196f8e62f9818126fd8ade4ca1f2d8dcd69216
   },
   "description": "CaffeineScript Webpack Demo",
   "license": "ISC",

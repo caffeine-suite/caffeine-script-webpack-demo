@@ -15,5 +15,6 @@ module.exports = {
   output:   { filename: "[name].js" },
 
   // change mode to 'production' to generate minimized code
-  mode:     'development'
+  // change mode to 'development' for dev
+  mode:     'none'
 };

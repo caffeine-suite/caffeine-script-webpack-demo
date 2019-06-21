@@ -1,13 +1,18 @@
 {
+  "author": "Shane Brinkman-Davis Delamore, Imikimi LLC\"",
   "dependencies": {
+    "art-build-configurator": "*",
     "caffeine-script": "*",
-    "webpack":      "*",
-    "webpack-cli":  "*"
-  },
-  "scripts": {
-    "start": "webpack-dev-server --progress"
+    "webpack": "*",
+    "webpack-cli": "*"
   },
   "description": "CaffeineScript Webpack Demo",
   "license": "ISC",
+  "name": "caffeine-script-webpack-demo",
+  "scripts": {
+    "build": "webpack --progress",
+    "start": "webpack-dev-server --progress",
+    "test": "webpack-dev-server  --progress --env.devServer"
+  },
   "version": "0.0.1"
 }

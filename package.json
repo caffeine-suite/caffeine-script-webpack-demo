@@ -1,7 +1,6 @@
 {
-  "author": "Shane Brinkman-Davis Delamore, Imikimi LLC\"",
+  "author": "Shane Brinkman-Davis Delamore, Imikimi LLC",
   "dependencies": {
-    "art-build-configurator": "*",
     "caffeine-script": "*",
     "webpack": "*",
     "webpack-cli": "*"
@@ -14,5 +13,5 @@
     "start": "webpack-dev-server --progress",
     "test": "webpack-dev-server  --progress --env.devServer"
   },
-  "version": "0.0.1"
+  "version": "0.1.0"
 }
